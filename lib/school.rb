@@ -8,6 +8,7 @@ class School
   def add_student(name,grade)
    self.roster[grade] << name
     end
+    def grade 
   end 
 
   
