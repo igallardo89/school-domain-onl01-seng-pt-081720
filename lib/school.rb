@@ -13,7 +13,7 @@ class School
      end
      def sort 
        self.roster.each do |grade,nu_array|
-         self.roster[grade] = nu_array.sprt!
+         self.roster[grade] = nu_array.sort!
         end
      end
   end 
